@@ -1,0 +1,211 @@
+@charset "UTF-8";
+body {
+  background-color: #000;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+header {
+  margin: 40px 0 90px 0;
+  border-bottom: 1px solid #aaa;
+}
+
+header img {
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+
+header i {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+
+header .top-image {
+  margin-bottom: 30px;
+}
+
+header .top-image img {
+  padding: 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header ul {
+  width: 300px;
+  margin: 0 auto 35px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header li i {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main h1::after {
+  display: block;
+  content: '';
+  width: 50px;
+  margin: 30px auto 40px auto;
+  border-bottom: 1px solid #707070;
+}
+
+main video {
+  width: 986px;
+  height: 486px;
+  margin: 0 auto 50px auto;
+  background-color: red;
+}
+
+main #new,
+main #price {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+main #new h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main #new p {
+  color: #aaa;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+main #new section {
+  margin-bottom: 80px;
+}
+
+main #new section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main #new section p {
+  font-size: 18px;
+  line-height: 1.85;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+main #new img {
+  margin-top: 50px;
+}
+
+main #new .contents-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #new section p:nth-of-type(2) {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+main #price .package {
+  margin: 0 auto;
+  width: 580px;
+}
+
+main #price section .package-hard {
+  margin: 0 auto;
+  width: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+main #price .playstation {
+  margin: 0 auto 20px 0;
+  width: 580px;
+  background-color: red;
+}
+
+main #price .playstation h3 {
+  display: inline-block;
+  padding: 6px 10px 4px;
+  color: #000;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1;
+}
+
+main #price .playstation p {
+  font-size: 14px;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+main #price .package h2 {
+  margin-bottom: 20px;
+}
+
+main #price .package p {
+  font-size: 14px;
+}
+
+main #price .package p span {
+  color: #aaa;
+}
+
+main #price .download {
+  width: 830px;
+  height: 270px;
+  background-color: #18191C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 30px 0 0 40px;
+  margin: 0 auto;
+}
+
+main #price .download img {
+  margin-right: 40px;
+}
+
+main #price .download h2 {
+  margin-bottom: 30px;
+}
+
+main #price .download p {
+  font-size: 14px;
+}
+
+main #price .download p span {
+  color: #aaa;
+}
+/*# sourceMappingURL=style.css.map */
