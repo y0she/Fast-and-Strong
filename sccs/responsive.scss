@@ -1,0 +1,86 @@
+@media screen and (max-width:575px)
+{
+
+  header {
+    img {
+      padding-left: 10px;
+    }
+    .top-image img {
+      padding: 0;
+      width: 100%;
+      object-fit: cover;
+  }
+  }
+  main {
+    width: auto;
+    #new,
+    #price {
+      width: auto;
+    }
+    #new {
+      padding: 0 20px;
+    }
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+    #new img {
+      max-width: 100%;
+      height: auto;
+    }
+    #price section {
+      padding: 0 20px;
+    }
+    #price .package {
+      width: auto;
+    }
+    #price section .package-hard {
+      width: 310px;
+    }
+    #price section .package-hard div img {
+      width: 150px;
+      height: 190px;
+    }
+    #price .download {
+      width: auto;
+      height: auto;
+      display: block;
+      padding-top: 30px;
+      padding-left: 0;
+    }
+    #price .download .dl-image {
+     margin: 0 auto 14px auto;
+      width: 216px;
+      height: 216px;
+    }
+    #price .download div {
+      padding-bottom: 24px;
+    }
+    #price .playstation {
+      width: 355px;
+      // padding-left: 20px;
+    }
+    // #price .nedan {
+    //   padding-left: 20px;
+    // }
+    #price .dl-price {
+      padding-left: 20px;
+    }
+  }
+  footer {
+    width: auto;
+    padding: 0 20px;
+    .copyright small {
+      width: 355px;
+    }
+    p {
+      padding-right: 5px;
+    }
+     img {
+      display: none;
+    }
+    .copyright {
+      width: auto;
+    }
+  }
+}

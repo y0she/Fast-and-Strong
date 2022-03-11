@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   background-color: #000;
-  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: 'Roboto', 'Noto Sans JP' ,'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-size: 18px;
   color: #fff;
 }
@@ -58,6 +58,16 @@ header a {
   font-size: 14px;
 }
 
+header a:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main {
+  margin-bottom: 300px;
+}
+
 main h1 {
   text-align: center;
 }
@@ -71,10 +81,7 @@ main h1::after {
 }
 
 main video {
-  width: 986px;
-  height: 486px;
   margin: 0 auto 50px auto;
-  background-color: red;
 }
 
 main #new,
@@ -115,7 +122,16 @@ main #new img {
   margin-top: 50px;
 }
 
-main #new .contents-flex {
+main #new img:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #new .contents-flex1,
+main #new .contents-flex2,
+main #new .contents-flex3,
+main #new .contents-flex4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,7 +146,7 @@ main #new section p:nth-of-type(2) {
 }
 
 main #price .package {
-  margin: 0 auto;
+  margin: 0 auto 120px auto;
   width: 580px;
 }
 
@@ -149,7 +165,6 @@ main #price section .package-hard {
 main #price .playstation {
   margin: 0 auto 20px 0;
   width: 580px;
-  background-color: red;
 }
 
 main #price .playstation h3 {
@@ -173,6 +188,7 @@ main #price .package h2 {
 
 main #price .package p {
   font-size: 14px;
+  line-height: 1.4;
 }
 
 main #price .package p span {
@@ -190,10 +206,10 @@ main #price .download {
       -ms-flex-align: start;
           align-items: flex-start;
   padding: 30px 0 0 40px;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;
 }
 
-main #price .download img {
+main #price .download .dl-image {
   margin-right: 40px;
 }
 
@@ -203,9 +219,100 @@ main #price .download h2 {
 
 main #price .download p {
   font-size: 14px;
+  line-height: 1.4;
 }
 
 main #price .download p span {
+  color: #aaa;
+}
+
+main #price .difference {
+  padding: 0 20px;
+  margin-bottom: 150px;
+}
+
+main #price .difference p {
+  font-size: 14px;
+  line-height: 1.85;
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+main .page-top {
+  text-align: center;
+}
+
+main .page-top a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+main .page-top a:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .page-top i {
+  font-size: 10px;
+}
+
+main .page-top p {
+  font-size: 14px;
+  display: inline;
+}
+
+footer {
+  width: 1000px;
+  margin: 0 auto 50px auto;
+}
+
+footer .sns i {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+footer i {
+  font-size: 25px;
+}
+
+footer p {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 40px;
+  padding-right: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .copyright {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .copyright small {
+  font-size: 12px;
+  width: 500px;
   color: #aaa;
 }
 /*# sourceMappingURL=style.css.map */

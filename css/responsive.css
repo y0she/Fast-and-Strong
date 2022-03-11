@@ -1,0 +1,80 @@
+@media screen and (max-width: 575px) {
+  header img {
+    padding-left: 10px;
+  }
+  header .top-image img {
+    padding: 0;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main {
+    width: auto;
+  }
+  main #new,
+  main #price {
+    width: auto;
+  }
+  main #new {
+    padding: 0 20px;
+  }
+  main video {
+    max-width: 100%;
+    height: auto;
+  }
+  main #new img {
+    max-width: 100%;
+    height: auto;
+  }
+  main #price section {
+    padding: 0 20px;
+  }
+  main #price .package {
+    width: auto;
+  }
+  main #price section .package-hard {
+    width: 310px;
+  }
+  main #price section .package-hard div img {
+    width: 150px;
+    height: 190px;
+  }
+  main #price .download {
+    width: auto;
+    height: auto;
+    display: block;
+    padding-top: 30px;
+    padding-left: 0;
+  }
+  main #price .download .dl-image {
+    margin: 0 auto 14px auto;
+    width: 216px;
+    height: 216px;
+  }
+  main #price .download div {
+    padding-bottom: 24px;
+  }
+  main #price .playstation {
+    width: 355px;
+  }
+  main #price .dl-price {
+    padding-left: 20px;
+  }
+  footer {
+    width: auto;
+    padding: 0 20px;
+  }
+  footer .copyright small {
+    width: 355px;
+  }
+  footer p {
+    padding-right: 5px;
+  }
+  footer img {
+    display: none;
+  }
+  footer .copyright {
+    width: auto;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

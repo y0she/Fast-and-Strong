@@ -1,6 +1,6 @@
 body {
   background-color: #000;
-  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: 'Roboto', 'Noto Sans JP' ,'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-size: 18px;
   color: #fff;
 }
@@ -44,9 +44,14 @@ header {
     color: #fff;
     font-size: 14px;
   }
+  a:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+  }
 }
 
 main {
+  margin-bottom: 300px;
   h1 {
     text-align: center;
     &::after {
@@ -58,10 +63,7 @@ main {
     }
   }
   video {
-    width: 986px;
-    height: 486px;
     margin: 0 auto 50px auto;
-    background-color: red;
   }
   #new,
   #price {
@@ -93,8 +95,16 @@ main {
   }
   #new img {
     margin-top: 50px;
+    // max-width: 100%;
   }
-  #new .contents-flex {
+  #new img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  #new .contents-flex1,
+  #new .contents-flex2,
+  #new .contents-flex3,
+  #new .contents-flex4 {
     display: flex;
     justify-content: space-between;
   }
@@ -103,7 +113,7 @@ main {
     font-size: 14px;
   }
   #price .package {
-    margin: 0 auto;
+    margin: 0 auto 120px auto;
     width: 580px;
   }
   #price section .package-hard {
@@ -116,7 +126,6 @@ main {
   #price .playstation {
     margin: 0 auto 20px 0;
     width: 580px;
-    background-color: red;
   }
   #price .playstation h3 {
     display: inline-block;
@@ -136,6 +145,7 @@ main {
   }
   #price .package p {
     font-size: 14px;
+    line-height: 1.4;
   }
   #price .package p span {
     color: #aaa;
@@ -147,9 +157,9 @@ main {
     display: flex;
     align-items: flex-start;
     padding: 30px 0 0 40px;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
   }
-  #price .download img {
+  #price .download .dl-image {
     margin-right: 40px;
   }
   #price .download h2 {
@@ -157,8 +167,79 @@ main {
   }
   #price .download p {
     font-size: 14px;
+    line-height: 1.4;
   }
   #price .download p span {
+    color: #aaa;
+  }
+  #price .difference {
+    padding: 0 20px;
+    margin-bottom: 150px;
+  }
+  #price .difference p {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #aaa;
+    margin-bottom: 30px;
+  }
+  .page-top {
+    text-align: center;
+  }
+  .page-top a {
+    text-decoration: none;
+    color: #aaa;
+  }
+  .page-top a:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  .page-top i {
+    font-size: 10px;
+  }
+  .page-top p {
+    font-size: 14px;
+    display: inline;
+  }
+}
+
+footer {
+  width: 1000px;
+  margin: 0 auto 50px auto;
+  .sns i {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+  }
+  i {
+    font-size: 25px;
+  }
+  p {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+
+  }
+  a:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  .copyright {
+    width: 1000px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+  }
+  .copyright small {
+    font-size: 12px;
+    width: 500px;
     color: #aaa;
   }
 }
